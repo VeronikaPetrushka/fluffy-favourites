@@ -92,7 +92,7 @@ const Treatments = () => {
                             <View style={{height: 170}} />
                         </ScrollView>
                     ) : (
-                        <View style={{width: '100%', alignItems: 'center', marginVertical: 'auto'}}>
+                        <View style={{width: '100%', alignItems: 'center', marginTop: height * 0.1}}>
                             <Image source={require('../assets/decor/empty.png')} style={{width: 334, height: height * 0.24, resizeMode: 'contain'}} />
                             <Text style={styles.emptyText}>There is nothing here yet...</Text>
                         </View>

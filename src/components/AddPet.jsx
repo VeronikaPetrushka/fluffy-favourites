@@ -131,7 +131,7 @@ const AddPet = ({ pet }) => {
                     <View style={styles.inputContainer}>
                         <TextInput
                             style={styles.input}
-                            placeholder="Age"
+                            placeholder="Age in years"
                             placeholderTextColor="rgba(0, 82, 25, 0.7)"
                             value={age}
                             onChangeText={setAge}
@@ -147,7 +147,7 @@ const AddPet = ({ pet }) => {
                     <View style={styles.inputContainer}>
                         <TextInput
                             style={styles.input}
-                            placeholder="Weight"
+                            placeholder="Weight in kg"
                             placeholderTextColor="rgba(0, 82, 25, 0.7)"
                             value={weight}
                             onChangeText={setWeight}

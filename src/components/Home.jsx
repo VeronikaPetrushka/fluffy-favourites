@@ -56,7 +56,7 @@ const Home = () => {
                             <View style={{height: 150}} />
                         </ScrollView>
                     ) : (
-                        <View style={{width: '100%', alignItems: 'center', marginVertical: 'auto'}}>
+                        <View style={{width: '100%', alignItems: 'center', marginTop: height * 0.1}}>
                             <Image source={require('../assets/decor/empty.png')} style={{width: 334, height: height * 0.24, resizeMode: 'contain'}} />
                             <Text style={styles.emptyText}>You don't have any pets added here yet...</Text>
                         </View>

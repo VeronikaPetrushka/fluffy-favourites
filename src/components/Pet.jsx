@@ -47,10 +47,10 @@ const Pet = ({ pet }) => {
                     <Text style={styles.name}>{pet.name}</Text>
 
                     <Text style={styles.label}>Age</Text>
-                    <Text style={styles.value}>{pet.age}</Text>
+                    <Text style={styles.value}>{pet.age} years</Text>
 
                     <Text style={styles.label}>Weight</Text>
-                    <Text style={styles.value}>{pet.weight}</Text>
+                    <Text style={styles.value}>{pet.weight} kg</Text>
 
                     <Text style={styles.label}>Breed</Text>
                     <Text style={styles.value}>{pet.breed}</Text>

@@ -189,7 +189,7 @@ const AddTreatment = ({ treatment }) => {
 
                 {
                     index === 0 && (
-                        <>
+                        <View style={{width: '100%', alignItems: 'center'}}>
                             <TouchableOpacity 
                                 style={[styles.purposeBtn, purpose === 'Vaccination' && {backgroundColor: '#ff8fe1'}]} 
                                 onPress={() => setPurpose('Vaccination')}
@@ -208,7 +208,7 @@ const AddTreatment = ({ treatment }) => {
                                 >
                                 <Text style={styles.purposeBtnText}>Medications</Text>
                             </TouchableOpacity>
-                        </>
+                        </View>
                     )
                 }
 

@@ -14,6 +14,8 @@ import TreatmentScreen from './src/screens/TreatmentScreen';
 import ArticlesScreen from './src/screens/ArticlesScreen';
 import FavoritesScreen from './src/screens/FavoritesScreen';
 import ArticleScreen from './src/screens/ArticleScreen';
+import QuizScreen from './src/screens/QuizScreen';
+import SettingsScreen from './src/screens/SettingsScreen';
 
 enableScreens();
 
@@ -94,6 +96,16 @@ const App = () => {
               <Stack.Screen 
                     name="ArticleScreen" 
                     component={ArticleScreen} 
+                    options={{ headerShown: false }} 
+              />
+              <Stack.Screen 
+                    name="QuizScreen" 
+                    component={QuizScreen} 
+                    options={{ headerShown: false }} 
+              />
+              <Stack.Screen 
+                    name="SettingsScreen" 
+                    component={SettingsScreen} 
                     options={{ headerShown: false }} 
               />
           </Stack.Navigator>
