@@ -10,7 +10,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.FluffyPetCare2025
       vars:
-        APP_STORE_APPLE_ID: 6744454565 #change
+        APP_STORE_APPLE_ID: 6745454322
         BUNDLE_ID: 'com.FluffyPetCare2025'
         XCODE_WORKSPACE: 'FluffyFavorites.xcworkspace'
         XCODE_SCHEME: 'FluffyFavorites'

@@ -1,13 +1,10 @@
 import SplashLoader from "../fluffyParts/SplashLoader"
-import { View } from "react-native";
+import ScreenWrapper from "../flufflyHelpers/ScreenWrapper";
 
 const SplashLoaderScreen = () => {
-
     return (
-        <View style={{flex: 1}}>
-            <SplashLoader />
-        </View>
+        <ScreenWrapper child={<SplashLoader />} />
     )
-};
+}; 
 
 export default SplashLoaderScreen;

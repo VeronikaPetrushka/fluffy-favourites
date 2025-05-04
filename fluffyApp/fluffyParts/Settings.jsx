@@ -11,8 +11,8 @@ const Settings = () => {
         setNotifications((prev) => !prev);
     };
 
-    const TERMS_URL = "https://yourwebsite.com/privacy-policy"; // change
-    const APPSTORE_URL = "https://apps.apple.com/app/idYOUR_APP_ID"; // change
+    const TERMS_URL = "https://www.termsfeed.com/live/7dee832b-8946-4a6b-880d-40625c06e09c";
+    const APPSTORE_URL = "https://apps.apple.com/us/app/fluffy-pet-care/id6745454322";
 
 
     const seeTerms = () => {
