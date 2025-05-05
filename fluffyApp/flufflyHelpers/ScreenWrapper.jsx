@@ -1,12 +1,11 @@
-import { View, Dimensions } from "react-native"
+import { View, Dimensions, ImageBackground } from "react-native"
 import FluffyNavigation from "../fluffyParts/FluffyNavigation"
-import LinearGradient from "react-native-linear-gradient";
 
 const { height } = Dimensions.get('window');
 
 const ScreenWrapper = ({ child, fluffyNav }) => {
     return (
-        <LinearGradient colors={['#26C642', '#03BADC']} style={{ flex: 1 }}>
+        <ImageBackground source={require('../appAssets/FluffyBackground.png')} style={{flex: 1}}>
             <View style={{ flex: 1 }}>
                 
                 <View style={{ width: '100%', height: '100%', paddingTop: height * 0.07, padding: 20, paddingBottom: 40 }}>{
@@ -22,7 +21,7 @@ const ScreenWrapper = ({ child, fluffyNav }) => {
                 }
 
             </View>
-        </LinearGradient>
+        </ImageBackground>
     )
 };
 
