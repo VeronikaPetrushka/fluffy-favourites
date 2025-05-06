@@ -1,4 +1,4 @@
-package com.fluffy.pet.care
+package com.fluffy.pet.favourites
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
