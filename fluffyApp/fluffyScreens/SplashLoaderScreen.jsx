@@ -1,8 +1,9 @@
 import SplashLoader from "../fluffyParts/SplashLoader"
+import ScreenWrapper from "../flufflyHelpers/ScreenWrapper";
 
 const SplashLoaderScreen = () => {
     return (
-        <SplashLoader />
+        <ScreenWrapper child={<SplashLoader />} />
     )
 }; 
 

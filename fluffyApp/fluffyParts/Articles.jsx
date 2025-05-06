@@ -57,7 +57,7 @@ const Articles = () => {
 
             <Text style={styles.title}>Articles</Text>
 
-            <TouchableOpacity style={[styles.favBtn, {top: height * 0.067, right: 20}]} onPress={() => navigation.navigate('FavoritesScreen')}>
+            <TouchableOpacity style={[styles.favBtn, {top: 0, right: 0}]} onPress={() => navigation.navigate('FavoritesScreen')}>
                 <Icons type={'fav-no'} />
             </TouchableOpacity>
 

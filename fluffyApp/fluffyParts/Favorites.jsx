@@ -98,7 +98,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         position: 'absolute',
         top: height * 0.067,
-        left: 20
+        left: 20,
+        zIndex: 10
     },
 
     title: {
