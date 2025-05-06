@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "FluffyFavorites.app"
-               BlueprintName = "FluffyFavorites"
-               ReferencedContainer = "container:FluffyFavorites.xcodeproj">
+               BuildableName = "FluffyPetCare.app"
+               BlueprintName = "FluffyPetCare"
+               ReferencedContainer = "container:FluffyPetCare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "FluffyFavoritesTests.xctest"
-               BlueprintName = "FluffyFavoritesTests"
-               ReferencedContainer = "container:FluffyFavorites.xcodeproj">
+               BuildableName = "FluffyPetCareTests.xctest"
+               BlueprintName = "FluffyPetCareTests"
+               ReferencedContainer = "container:FluffyPetCare.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FluffyFavorites.app"
-            BlueprintName = "FluffyFavorites"
-            ReferencedContainer = "container:FluffyFavorites.xcodeproj">
+            BuildableName = "FluffyPetCare.app"
+            BlueprintName = "FluffyPetCare"
+            ReferencedContainer = "container:FluffyPetCare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FluffyFavorites.app"
-            BlueprintName = "FluffyFavorites"
-            ReferencedContainer = "container:FluffyFavorites.xcodeproj">
+            BuildableName = "FluffyPetCare.app"
+            BlueprintName = "FluffyPetCare"
+            ReferencedContainer = "container:FluffyPetCare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
