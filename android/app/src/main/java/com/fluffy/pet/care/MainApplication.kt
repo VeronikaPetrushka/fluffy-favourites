@@ -1,4 +1,4 @@
-package com.fluffyfavorites
+package com.fluffy.pet.care
 
 import android.app.Application
 import com.facebook.react.PackageList

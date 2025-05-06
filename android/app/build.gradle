@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.fluffyfavorites" //change
+    namespace "com.fluffy.pet.care"
     defaultConfig {
-        applicationId "com.fluffyfavorites" //change
+        applicationId "com.fluffy.pet.care"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 4
